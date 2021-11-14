@@ -1,0 +1,326 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Aston Villa",
+        "description": "2000/01 Third Shirt",
+        "price": 45.99,
+        "category": 1,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_7cb8d55f-af53-48f0-8acf-1ef505fff3d4_720x.jpg?v=1636316673",
+        "image": "astonvilla_2000_3_IMG.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001600425",
+        "name": "Chelsea",
+        "description": "1997/98 Home Shirt (XXL)",
+        "price": 58.99,
+        "category": 1,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_5f814720-5b54-4cad-80cc-2a0bf34fc75c_720x.jpg?v=1636115940",
+        "image": "chelsea_1997_1_IMG.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001730010",
+        "name": "Middlesbrough",
+        "description": "2005/06 Away Shirt (XL)",
+        "price": 30.99,
+        "category": 2,
+        "rating": 5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_8e049276-5f82-4bd8-ba4a-656a85c262f4_720x.jpg?v=1635409900",
+        "image": "middlesbrough_2005_2_IMG.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001890157",
+        "name": "Arsenal",
+        "description": "1999/01 Away Shirt (L)",
+        "price": 55.99,
+        "category": 1,
+        "rating": 9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_033b0cdc-ec50-49fd-9b89-0a07ac3fc2f2_720x.jpg?v=1634220483",
+        "image": "arsenal_1999_2_IMG.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002111605",
+        "name": "Southampton",
+        "description": "2003/04 Home Shirt (L) ",
+        "price": 64.99,
+        "category": 1,
+        "rating": 9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_0369bbf1-aaf5-4396-aaf2-9cd6a0e70ed7_720x.jpg?v=1633953387",
+        "image": "southampton_2003_1_IMG.jpg"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002260206",
+        "name": "Birmingham",
+        "description": "1995/96 Home Shirt (L)",
+        "price": 60.99,
+        "category": 2,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_eb670103-2b16-4517-8601-a7f2bfb86dbd_720x.jpg?v=1634053614",
+        "image": "birmingham_1995_1_IMG.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002440521",
+        "name": "Blackburn",
+        "description": "1992/93 Away Shirt (XXL)",
+        "price": 70.00,
+        "category": 2,
+        "rating": 9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_98a1a5ff-80bb-4d16-a190-a4a5ff09e32f_720x.jpg?v=1631810498",
+        "image": "blackburn_1992_2_IMG.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002601115",
+        "name": "Everton",
+        "description": "1997/98 Home Shirt (L)",
+        "price": 45.99,
+        "category": 1,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_6335cefd-6234-43f0-afae-62fd0e7dc274_720x.jpg?v=1631723476",
+        "image": "everton_1997_1_IMG.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002690715",
+        "name": "Tottenham",
+        "description": "1998/99 Away Shirt (M)",
+        "price": 60.99,
+        "category": 1,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_cedb0dcf-f514-40e6-b735-cfa6bdb19a99_720x.jpg?v=1624961377",
+        "image": "tottenham_1998_2_IMG.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002761055",
+        "name": "Inter Milan",
+        "description": "1996/97 Home Shirt (M)",
+        "price": 55.99,
+        "category": 5,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_b80f5c3d-5011-4e65-b6e6-5e90f8d37f7d_720x.jpg?v=1635881175",
+        "image": "inter_1996_1_IMG.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820069",
+        "name": "Lazio",
+        "description": "2016/17 Home Shirt (XXL)",
+        "price": 25.99,
+        "category": 5,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_d93a96bd-605b-4239-bcb6-647f5573b5de_720x.jpg?v=1635690657",
+        "image": "/workspace/cult_classics/media/lazio_2016_1_IMG.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820147",
+        "name": "Roma",
+        "description": "2003/04 Home Shirt (M)",
+        "price": 25.0,
+        "category": 5,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_a374f939-f81a-4b64-ace7-e5adeaaee36f_720x.jpg?v=1634128980",
+        "image": "roma_2003_1_IMG.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002910572",
+        "name": "Athletico Madrid",
+        "description": "2017/18 Home Shirt (XXS)",
+        "price": 20.99,
+        "category": 3,
+        "rating": 5,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_6d29119c-53b6-4f0d-9818-e5a3dad708b1_720x.jpg?v=1635853647",
+        "image": "athletico_2017_1_IMG.jpg"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002990740",
+        "name": "Barcelona",
+        "description": "2001/02 Home Shirt (L)",
+        "price": 80.99,
+        "category": 3,
+        "rating": 9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_e9afc0c1-c110-41b7-b10d-65c20e130853_720x.jpg?v=1635581530",
+        "image": "barcelona_2001_1_IMG.jpg"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003050248",
+        "name": "Valencia",
+        "description": "2010/11 Home Shirt (L)",
+        "price": 65.99,
+        "category": 3,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_975f7e82-13ba-4edb-9239-fb80a439c949_720x.jpg?v=1634298528",
+        "image": "valencia_2010_1_IMG.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003070787",
+        "name": "Borussia Dortmund",
+        "description": "2004/05 Home Shirt (L)",
+        "price": 40.99,
+        "category": 4,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_c3320191-40d6-4817-8edd-730bc2a10271_720x.jpg?v=1635426758",
+        "image": "dortmund_2004_1_IMG.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090182",
+        "name": "Bayern Munich",
+        "description": "2002/03 Away Shirt (M)",
+        "price": 59.99,
+        "category": 4,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_2774a529-6a68-4fc2-939f-b8f47564a3d8_720x.jpg?v=1634645182",
+        "image": "bayern_2002_2_IMG.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090186",
+        "name": "Stuttgart",
+        "description": "2008/09 Third Shirt (L)",
+        "price": 59.99,
+        "category": 4,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_9831815c-8073-41dc-8ef9-178d43ec26a2_720x.jpg?v=1634056855",
+        "image": "stuttgart_2008_3_IMG.jpg"
+    }
+}, {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003161326",
+        "name": "Real Madrid",
+        "description": "1996/97 Home Shirt (XL)",
+        "price": 100.99,
+        "category": 3,
+        "rating": 9,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_efd301c3-c3a1-4f6f-9621-658ab2040b43_720x.jpg?v=1634128057",
+        "image": "madrid_1996_1_IMG.jpg"
+    }
+}, {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003230723",
+        "name": "Holland",
+        "description": "1998/99 Home Shirt (XXS)",
+        "price": 40.99,
+        "category": 6,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_e56461a6-f50a-4881-a930-8c8f0e9f8f78_720x.jpg?v=1636113662",
+        "image": "holland_1998_1_IMG.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003270936",
+        "name": "Mexico",
+        "description": " 2003/04 Home Shirt (L)",
+        "price": 30.99,
+        "category": 7,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_bc9a4756-6b4a-419e-8cbc-78c31e5ce952_720x.jpg?v=1636109629",
+        "image": "mexico_2003_1_IMG.jpg"
+    }
+}, {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003360384",
+        "name": "Sweden",
+        "description": "1997/98 Home Shirt (L)",
+        "price": 50.99,
+        "category": 6,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_e5b981a7-e603-4193-927e-51feb2c68660_720x.jpg?v=1635412017",
+        "image": "sweden_1997_1_IMG.jpg"
+    }
+}, {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003440111",
+        "name": "Argentina",
+        "description": "1999/00 Home Shirt (L)",
+        "price": 69.99,
+        "category": 7,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_835e2f9f-9c59-4a68-96d6-021e983facd2_720x.jpg?v=1634724258",
+        "image": "argentina_1999_1_IMG.jpg"
+    }
+}, {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003540313",
+        "name": "South Korea",
+        "description": "1998/99 Home Shirt (L)",
+        "price": 69.99,
+        "category": 9,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_a1e841f1-8c4a-44be-8437-57b1b49e11d6_720x.jpg?v=1634580779",
+        "image": "korea_1998_1_IMG.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560513",
+        "name": "Cameroon",
+        "description": "2004/05 Away Shirt (S)",
+        "price": 50.99,
+        "category": 8,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_44393a30-5a3e-44fd-a752-109bda60912a_720x.jpg?v=1605301697",
+        "image": "/workspace/cult_classics/media/cameroon_2004_2_IMG.jpg"
+    }
+}]

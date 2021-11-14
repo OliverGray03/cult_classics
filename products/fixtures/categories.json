@@ -1,0 +1,64 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "premier_league",
+        "friendly_name": "Premier League"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "championship",
+        "friendly_name": "Championship"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "Spanish",
+        "friendly_name": "La Liga"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "German",
+        "friendly_name": "Bundesliga"
+    }
+}, {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "Italian",
+        "friendly_name": "Serie A"
+    }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "europe",
+        "friendly_name": "European"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "americas",
+        "friendly_name": "Americas"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "africa",
+        "friendly_name": "African"
+    }
+}, {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "rest_of_world",
+        "friendly_name": "Rest of World"
+    }
+}]
