@@ -321,6 +321,84 @@
         "category": 8,
         "rating": 6,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_44393a30-5a3e-44fd-a752-109bda60912a_720x.jpg?v=1605301697",
-        "image": "/workspace/cult_classics/media/cameroon_2004_2_IMG.jpg"
+        "image": "cameroon_2004_2_IMG.jpg"
+    }
+}, {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560948",
+        "name": "Uganda",
+        "description": "2008/09 Home Shirt (XL) ",
+        "price": 50.99,
+        "category": 8,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_6af1b9e4-2f6f-4288-acb9-dd08c8f2361c_720x.jpg?v=1631789479",
+        "image": "uganda_2008_1_IMG.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003570628",
+        "name": "Ghana",
+        "description": "2010/11 Home Shirt (L)",
+        "price": 49.99,
+        "category": 8,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_e319c747-ff02-49e9-a861-0a146840e84d_720x.jpg?v=1621615032",
+        "image": "/workspace/cult_classics/media/ghana_2011_1_IMG.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003620308",
+        "name": "USA",
+        "description": "2008/09 Home Shirt (XL)",
+        "price": 29.99,
+        "category": 7,
+        "rating": 6,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_805a7278-4fe3-4dd1-b752-33d5869d328c_720x.jpg?v=1591950055",
+        "image": "DP0422201517022488M.jpg"
+    }
+}, {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690115",
+        "name": "Bologna",
+        "description": "2000/01 Home Shirt (M)",
+        "price": 40.99,
+        "category": 5,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_626c5fd8-6bde-427b-9c99-91ed61d44ead_720x.jpg?v=1620569685",
+        "image": "/workspace/cult_classics/media/bologna_2000_1_IMG.jpg"
+    }
+}, {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690116",
+        "name": "Watford",
+        "description": "2006/07 Home Shirt (XL)",
+        "price": 40.99,
+        "category": 1,
+        "rating": 7,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_77b9a45b-bb7c-4e14-b2a4-f7ef1c877aee_720x.jpg?v=1632411015",
+        "image": "/workspace/cult_classics/media/watford_2006_1_IMG.jpg"
+    }
+}, {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003780391",
+        "name": "Leeds",
+        "description": "2003/04 Away Shirt (L)",
+        "price": 42.99,
+        "category": 1,
+        "rating": 8,
+        "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_0008afcf-cc5e-436c-9286-04dc54db9fa8_720x.jpg?v=1610116605",
+        "image": "/workspace/cult_classics/media/leeds_2003_2_IMG.jpg"
     }
 }]
