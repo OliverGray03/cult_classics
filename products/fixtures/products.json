@@ -139,7 +139,7 @@
         "category": 5,
         "rating": 6,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_d93a96bd-605b-4239-bcb6-647f5573b5de_720x.jpg?v=1635690657",
-        "image": "/workspace/cult_classics/media/lazio_2016_1_IMG.jpg"
+        "image": "lazio_2016_1_IMG.jpg"
     }
 }, {
     "pk": 13,
@@ -347,7 +347,7 @@
         "category": 8,
         "rating": 6,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_e319c747-ff02-49e9-a861-0a146840e84d_720x.jpg?v=1621615032",
-        "image": "/workspace/cult_classics/media/ghana_2011_1_IMG.jpg"
+        "image": "ghana_2011_1_IMG.jpg"
     }
 }, {
     "pk": 29,
@@ -360,7 +360,7 @@
         "category": 7,
         "rating": 6,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_805a7278-4fe3-4dd1-b752-33d5869d328c_720x.jpg?v=1591950055",
-        "image": "DP0422201517022488M.jpg"
+        "image": "usa_2008_1_IMG.jpg"
     }
 }, {
     "pk": 30,
@@ -373,7 +373,7 @@
         "category": 5,
         "rating": 8,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_626c5fd8-6bde-427b-9c99-91ed61d44ead_720x.jpg?v=1620569685",
-        "image": "/workspace/cult_classics/media/bologna_2000_1_IMG.jpg"
+        "image": "bologna_2000_1_IMG.jpg"
     }
 }, {
     "pk": 31,
@@ -386,7 +386,7 @@
         "category": 1,
         "rating": 7,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_77b9a45b-bb7c-4e14-b2a4-f7ef1c877aee_720x.jpg?v=1632411015",
-        "image": "/workspace/cult_classics/media/watford_2006_1_IMG.jpg"
+        "image": "watford_2006_1_IMG.jpg"
     }
 }, {
     "pk": 32,
@@ -399,6 +399,6 @@
         "category": 1,
         "rating": 8,
         "image_url": "https://cdn.shopify.com/s/files/1/0014/6122/3479/products/image_0008afcf-cc5e-436c-9286-04dc54db9fa8_720x.jpg?v=1610116605",
-        "image": "/workspace/cult_classics/media/leeds_2003_2_IMG.jpg"
+        "image": "leeds_2003_2_IMG.jpg"
     }
 }]
