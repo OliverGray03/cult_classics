@@ -38,6 +38,11 @@ body {
     color: white;
 }
 
+.btn-white {
+    background: #fff;
+    color: #000;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -52,8 +57,16 @@ body {
     color: #000 !important;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 .border-black {
     border: 1px solid black !important;
+}
+
+.border-white {
+    border: 1px solid #fff !important;
 }
 
 .bg-black {
@@ -86,6 +99,7 @@ a.category-badge>span.badge:hover {
 .btt-link {
     cursor: pointer;
 }
+
 
 /* -------------------------------- Media Queries */
 

@@ -43,20 +43,20 @@
 </head>
 
 <body>
-    <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+    <header class="container-fluid fixed-top bg-black">
+        <div id="topnav" class="row bg-black text-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Cult</strong> Classics</h2>
+                    <h2 class="logo-font text-white my-0"><strong>Cult</strong> Classics</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products'%}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q"
+                        <input class="form-control border border-white rounded-0" type="text" name="q"
                             placeholder="Search the site">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <button class="form-control btn btn-white border border-white rounded-0" type="submit">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -68,7 +68,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
+                        <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user-circle fa-lg"></i></div>
@@ -89,7 +89,7 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
                             href="">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
@@ -117,7 +117,7 @@
             </nav>
         </div>
         <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
+            <div class="col">
                 <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
             </div>
         </div>
@@ -133,6 +133,102 @@
     {% block content %}
     {% endblock %}
 
+    <footer class="bg-black w-100">
+        <div class="container-fluid fixed-bottom">
+            <div class="row no-gutters pt-4">
+                <div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12 pt-3 px-4 center-text-medium">
+                    <p class="text-uppercase text-white">Stay up to date with cult classics</p>
+                    <hr class="text-white">
+                    <p class="text-white">Want to be the first to know about any new added products. Enter
+                        your
+                        email below.</p>
+                    <form method="POST" action="" class="form mb-2">
+                        {% csrf_token %}
+                        <div class="mb-2">
+                            <button class="btn subscribe-button text-uppercase fs-6 mb-2">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="text-white">To unsubscribe, please click <a href=""
+                            class="unstyled-color text-white"><strong>here.</strong></a></p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12 pt-3 center-text-medium">
+                    <p class="text-white text-uppercase">Shop</p>
+                    <ul class="list-unstyled text-white">
+                        <li class="my-2">
+                            <a href="{% url 'products' %}?category=premier_league,championship" class="text-white">Uk
+                                Shirts</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="{% url 'products' %}?category=spanish,german,italian" class="text-white">European
+                                Shirts</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="{% url 'products' %}?category=europe,africa,americas,rest_of_world"
+                                class="text-white">International Shirts</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="{% url 'products' %}" class="text-white">All Shirts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
+                    <p class="text-white text-uppercase">Company</p>
+                    <ul class="list-unstyled text-white pl-md-5">
+                        <li class="my-2">
+                            <a href="">About Us</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="">Contact Us</a>
+                        </li>
+                        {% if request.user.is_authenticated %}
+                        <li class="my-2">
+                            <a href="">Profile</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="">Log Out</a>
+                        </li>
+                        {% else %}
+                        <li class="my-2">
+                            <a href="">Login</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="">Sign Up</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
+                    <p class="text-white text-uppercase">Social</p>
+                    <ul class="list-unstyled text-white">
+                        <li class="my-2">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-facebook me-2"></i> Facebook</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-instagram me-2"></i> Instagram</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="noreferrer">
+                                <i class="fab fa-twitter me-2"></i> Twitter</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-linkedin me-2"></i> Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row no-gutters py-3">
+                    <div class="col-12 text-center">
+                        <p class="text-white my-auto">&copy 2021 created by Oliver Gray
+                            <a href="https://github.com/OliverGray03/cult_classics" class="mx-1" target="_blank"
+                                rel="noreferrer"><i class="fab fa-github"></i></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     {% block postloadjs %}
     {% endblock %}
 </body>
