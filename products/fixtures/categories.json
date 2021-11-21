@@ -16,21 +16,21 @@
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "Spanish",
+        "name": "spanish",
         "friendly_name": "La Liga"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "German",
+        "name": "german",
         "friendly_name": "Bundesliga"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "Italian",
+        "name": "italian",
         "friendly_name": "Serie A"
     }
 }, {

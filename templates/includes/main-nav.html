@@ -18,9 +18,10 @@
                 UK Shirts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="new-in-link">
-                <a href="" class="dropdown-item">Premiership</a>
-                <a href="" class="dropdown-item">Championship</a>
-                <a href="" class="dropdown-item">All Uk Shirts</a>
+                <a href="{% url 'products' %}?category=premier_league" class="dropdown-item">Premiership</a>
+                <a href="{% url 'products' %}?category=championship" class="dropdown-item">Championship</a>
+                <a href="{% url 'products' %}?category=premier_league,championship" class="dropdown-item">All Uk
+                    Shirts</a>
             </div>
         </li>
 
@@ -30,10 +31,11 @@
                 European Shirts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clearance-link">
-                <a href="" class="dropdown-item">La Liga</a>
-                <a href="" class="dropdown-item ">Bundesliga</a>
-                <a href="" class="dropdown-item ">Seria A</a>
-                <a href="" class="dropdown-item">All European Shirts</a>
+                <a href="{% url 'products' %}?category=spanish" class="dropdown-item">La Liga</a>
+                <a href="{% url 'products' %}?category=german" class="dropdown-item ">Bundesliga</a>
+                <a href="{% url 'products' %}?category=italian" class="dropdown-item ">Serie A</a>
+                <a href="{% url 'products' %}?category=spanish,german,italian" class="dropdown-item">All European
+                    Shirts</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -42,11 +44,12 @@
                 International Shirts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clearance-link">
-                <a href="" class="dropdown-item">Europe</a>
-                <a href="" class="dropdown-item ">Africa</a>
-                <a href="" class="dropdown-item ">Americas</a>
-                <a href="" class="dropdown-item">Rest of the World</a>
-                <a href="" class="dropdown-item">All International Shirts</a>
+                <a href="{% url 'products' %}?category=europe" class="dropdown-item">Europe</a>
+                <a href="{% url 'products' %}?category=africa" class="dropdown-item ">Africa</a>
+                <a href="{% url 'products' %}?category=americas" class="dropdown-item ">Americas</a>
+                <a href="{% url 'products' %}?category=rest_of_world" class="dropdown-item">Rest of the World</a>
+                <a href="{% url 'products' %}?category=europe,africa,americas,rest_of_world" class="dropdown-item">All
+                    International Shirts</a>
             </div>
         </li>
     </ul>
