@@ -106,7 +106,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-white">
+        <div class="row bg-black">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,9 +116,9 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-        <div id="delivery-banner" class="row text-center">
+        <div id="delivery-banner" class="row text-center bg-green">
             <div class="col">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+                <h4 class="logo-font text-black my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
             </div>
         </div>
     </header>
@@ -134,14 +134,13 @@
     {% endblock %}
 
     <footer class="bg-black w-100">
-        <div class="container-fluid fixed-bottom">
+        <div class="container-fluid">
             <div class="row no-gutters pt-4">
                 <div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12 pt-3 px-4 center-text-medium">
                     <p class="text-uppercase text-white">Stay up to date with cult classics</p>
                     <hr class="text-white">
                     <p class="text-white">Want to be the first to know about any new added products. Enter
-                        your
-                        email below.</p>
+                        your email below.</p>
                     <form method="POST" action="" class="form mb-2">
                         {% csrf_token %}
                         <div class="mb-2">
@@ -155,7 +154,7 @@
                     <p class="text-white text-uppercase">Shop</p>
                     <ul class="list-unstyled text-white">
                         <li class="my-2">
-                            <a href="{% url 'products' %}?category=premier_league,championship" class="text-white">Uk
+                            <a href="{% url 'products' %}?category=premier_league,championship" class="text-white">UK
                                 Shirts</a>
                         </li>
                         <li class="my-2">
@@ -201,33 +200,32 @@
                     <p class="text-white text-uppercase">Social</p>
                     <ul class="list-unstyled text-white">
                         <li class="my-2">
-                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                <i class="fab fa-facebook me-2"></i> Facebook</a>
+                            <a href="https://www.facebook.com/" class="text-grey" target="_blank" rel="noreferrer">
+                                <i class="fab fa-facebook me-2 social"></i> Facebook</a>
                         </li>
                         <li class="my-2">
-                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                                <i class="fab fa-instagram me-2"></i> Instagram</a>
+                            <a href="https://www.instagram.com/" class="text-grey" target="_blank" rel="noreferrer">
+                                <i class="fab fa-instagram me-2 social"></i> Instagram</a>
                         </li>
                         <li class="my-2">
-                            <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="noreferrer">
-                                <i class="fab fa-twitter me-2"></i> Twitter</a>
+                            <a href="https://twitter.com/?lang=en-gb" class="text-grey" target="_blank"
+                                rel="noreferrer">
+                                <i class="fab fa-twitter me-2 social"></i> Twitter</a>
                         </li>
                         <li class="my-2">
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                <i class="fab fa-linkedin me-2"></i> Linkedin</a>
+                            <a href="https://www.linkedin.com/" class="text-grey" target="_blank" rel="noreferrer">
+                                <i class="fab fa-linkedin me-2 social"></i> Linkedin</a>
                         </li>
                     </ul>
                 </div>
-                <div class="row no-gutters py-3">
-                    <div class="col-12 text-center">
-                        <p class="text-white my-auto">&copy 2021 created by Oliver Gray
-                            <a href="https://github.com/OliverGray03/cult_classics" class="mx-1" target="_blank"
-                                rel="noreferrer"><i class="fab fa-github"></i></p></a>
-                    </div>
-                </div>
             </div>
         </div>
-
+        <div class="row no-gutters py-3 bg-green w-100">
+            <div class="col-12 text-center">
+                <p class="text-black my-auto">&copy 2021 created by Oliver Gray
+                    <a href="https://github.com/OliverGray03/cult_classics" class="mx-1" target="_blank"
+                        rel="noreferrer"><i class="fab fa-github social"></i></p></a>
+            </div>
     </footer>
     {% block postloadjs %}
     {% endblock %}
