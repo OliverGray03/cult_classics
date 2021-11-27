@@ -135,7 +135,9 @@ a.category-badge>span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.remove-item,
+.update-link {
     cursor: pointer;
 }
 
@@ -147,6 +149,31 @@ a.category-badge>span.badge:hover {
     color: #7E7E7E;
 }
 
+.about-us {
+    min-height: 800px;
+}
+
+.title-text {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    text-align: center;
+    word-spacing: 3px;
+}
+
+.content-text p {
+    margin: 35px;
+}
+
+.hr-small {
+    margin: 20px auto;
+    width: 50%;
+    color: #DEE0C8;
+    border-top: solid #DEE0C8 2px;
+}
 
 /* -------------------------------- Media Queries */
 
