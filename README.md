@@ -11,7 +11,7 @@ The goal of this project is to build a full stack Ecommerce website based around
 ## User Stories
 ### Viewing and Navigation
  - As a first time user i would like to know what the website is offering so i can make a decision on whether i would like to continue using the site. 
- - As a first time user i would like to see easy to understand and use navigation to
+ - As a first time user i would like to see easy to understand and use navigation to move around the site
 
 ### Registration and User Accounts
  - As a site user i would like to register an account to make future purchases easier. 

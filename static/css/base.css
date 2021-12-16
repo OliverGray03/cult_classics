@@ -383,3 +383,15 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 }
+
+.footer-headings {
+    letter-spacing: 3px;
+    border-bottom: 1px solid #DEE0C8;
+    width: 40%;
+}
+
+.home-header {
+    letter-spacing: 3px;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.02);
+}

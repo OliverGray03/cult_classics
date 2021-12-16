@@ -166,54 +166,54 @@
                             class="unstyled-color text-white"><strong>here.</strong></a></p>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12 pt-3 center-text-medium">
-                    <p class="text-white text-uppercase">Shop</p>
-                    <ul class="list-unstyled text-white">
+                    <p class="text-white text-uppercase footer-headings"><strong>Shop</p></strong>
+                    <ul class="list-unstyled">
                         <li class="my-2">
-                            <a href="{% url 'products' %}?category=premier_league,championship" class="text-white">UK
+                            <a href="{% url 'products' %}?category=premier_league,championship" class="text-grey">UK
                                 Shirts</a>
                         </li>
                         <li class="my-2">
-                            <a href="{% url 'products' %}?category=spanish,german,italian" class="text-white">European
+                            <a href="{% url 'products' %}?category=spanish,german,italian" class="text-grey">European
                                 Shirts</a>
                         </li>
                         <li class="my-2">
                             <a href="{% url 'products' %}?category=europe,africa,americas,rest_of_world"
-                                class="text-white">International Shirts</a>
+                                class="text-grey">International Shirts</a>
                         </li>
                         <li class="my-2">
-                            <a href="{% url 'products' %}" class="text-white">All Shirts</a>
+                            <a href="{% url 'products' %}" class="text-grey">All Shirts</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
-                    <p class="text-white text-uppercase">Company</p>
-                    <ul class="list-unstyled text-white pl-md-5">
+                    <p class="text-white text-uppercase footer-headings"><strong>Company</p></strong>
+                    <ul class="list-unstyled">
                         <li class="my-2">
                             <a href="{% url 'about_us' %}">About Us</a>
                         </li>
-                        <li class="my-2">
+                        <li class="my-2 text-grey">
                             <a href="">Contact Us</a>
                         </li>
                         {% if request.user.is_authenticated %}
-                        <li class="my-2">
-                            <a href="">Profile</a>
+                        <li class="my-2 text-grey">
+                            <a href="{% url 'profile' %}">Profile</a>
                         </li>
-                        <li class="my-2">
-                            <a href="">Log Out</a>
+                        <li class="my-2 text-grey">
+                            <a href="{% url 'account_logout' %}">Log Out</a>
                         </li>
                         {% else %}
-                        <li class="my-2">
-                            <a href="">Login</a>
+                        <li class="my-2 text-grey">
+                            <a href="{% url 'account_login' %}">Login</a>
                         </li>
-                        <li class="my-2">
-                            <a href="">Register</a>
+                        <li class="my-2 text-grey">
+                            <a href="{% url 'account_signup' %}">Register</a>
                         </li>
                         {% endif %}
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
-                    <p class="text-white text-uppercase">Social</p>
-                    <ul class="list-unstyled text-white">
+                    <p class="text-white text-uppercase footer-headings"><strong>Social</p></strong>
+                    <ul class="list-unstyled">
                         <li class="my-2">
                             <a href="https://www.facebook.com/" class="text-grey" target="_blank" rel="noreferrer">
                                 <i class="fab fa-facebook me-2 social"></i> Facebook</a>
