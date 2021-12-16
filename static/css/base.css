@@ -395,3 +395,16 @@ input[name='q']::placeholder {
     font-size: 60px;
     background-color: rgba(0, 0, 0, 0.02);
 }
+
+.card-title {
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #DEE0C8;
+    text-transform: uppercase;
+    color: #7E7E7E;
+}
+
+.card-footer p {
+    color: #7E7E7E;
+}
