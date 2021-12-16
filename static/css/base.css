@@ -5,7 +5,10 @@ html {
 body {
     background: url('/media/homepage_image.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: #555;
     font-family: 'Lato';
 }
