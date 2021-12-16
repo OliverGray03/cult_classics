@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+{% load bag_tools %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5 min-height">
+    <div class="row">
+        <div class="col text-center mb-3">
+            <h2 class="title-text ">Contact Us</h2>
+            <hr class="w-50 mb-4 mx-auto">
+        </div>
+    </div>
+
+    <!--Contact Form-->
+    <div class="row my-4">
+        <div class="col-md-8 offset-md-2 content-text">
+            <p class="text-center">We respond to all messages before the end of the next working day (Mon-Fri). Messages
+                received on Friday and the weekend will be responded to before the end of the following Monday, unless
+                that Monday is a public holiday.</p>
+            <form method="POST" action="{% url 'contact' %}" class="form mb-2 content-text"
+                enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="mb-2 text-center">
+                    <a href="{% url 'home' %}" class="btn text-uppercase mb-2 px-2 fs-6" role="button">Cancel</a>
+                    <button class="btn text-uppercase fs-6 mb-2">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+</div>
+
+{% endblock %}
