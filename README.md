@@ -80,6 +80,7 @@ The goal of this project is to build a full stack Ecommerce website based around
     - A sub total and grand total price are shown next to the product and at the bottom of the screen with the continue to purchase button. The grand total includes any shipping costs. 
 
 - Checkout Page
+
     - The checkout page is split into two sections, on the left side of the page there is a form, this needs to be complete by the user to gather all the relevant information like name , delivery information and payment information. 
     - On the right hand side of the page there is an order summary, this includes the product information and the total payable amount. 
     - There is a back to bag button giving the user the opportunity to make any last minute changes. 

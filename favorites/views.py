@@ -3,9 +3,11 @@ from django.http import HttpResponseRedirect
 from django.contrib import messages
 from products.models import Product
 from profiles.models import UserProfile
-from favorites.models import Favourite
+from favorites.models import Favorite
+from django.contrib.auth.models import User
 
 # Create your views here.
+
 
 def favorites(request):
     """
@@ -20,17 +22,19 @@ def favorites(request):
         )
         return redirect(reverse('home'))
 
-    products = Product.objects.filter(user_favorites=request.user)
+    profile = get_object_or_404(UserProfile, user=request.user)
+    favorites = Favorite.objects.filter(user_profile=profile)
+
     context = {
-        'products': products
+        'products': [n.product for n in favorites]
     }
     return render(request, 'favorites/favorites.html', context)
 
 
-"""def add_favourite(request, item_id):
-    """
-    A view to return the about us page
-    """
+def add_to_favorites(request, product_id):
+
+    # A view to add a product to favorites
+
     if not request.user.is_authenticated:
         messages.error(
             request,
@@ -38,20 +42,35 @@ def favorites(request):
         )
         return redirect(reverse('home'))
 
-    profile = UserProfile.objects.get(user=request.user)
-    product = Product.objects.get(pk=item_id)
+    profile = get_object_or_404(UserProfile, user=request.user)
+    product = get_object_or_404(Product, pk=product_id)
 
-    if (profile is null or product is null)
+    Favorite.objects.create(product=product,
+                            user_profile=profile)
+
+    messages.success(request,
+                     (f'Added {product.name} to your favorites'))
+
+    return redirect(reverse('products'))
+
+
+def remove_from_favorites(request, product_id):
+
+    # A view to remove a product from favorites
+
+    if not request.user.is_authenticated:
         messages.error(
             request,
-            'Sorry! Product or profile doesnt exist'
+            'Sorry! Only members can access favorites'
         )
         return redirect(reverse('home'))
-        
-    Favourite.objects.create(product = product,
-                             user_profile = profile)
 
-    context = {
-        'products': products
-    }
-    return render(request, 'favorites/favorites.html', context)""
+    profile = get_object_or_404(UserProfile, user=request.user)
+    product = get_object_or_404(Product, pk=product_id)
+
+    Favorite.objects.get(product=product, user_profile=profile).delete()
+
+    messages.success(request,
+                     (f'Removed {product.name} from your favorites'))
+
+    return redirect(reverse('products'))
