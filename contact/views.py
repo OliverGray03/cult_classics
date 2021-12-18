@@ -19,7 +19,7 @@ def contact(request):
             messages.success(
                 request,
                 f'Thanks {name}! {subject} has been sent to the \
-                    Tarmachan team.'
+                    Cult Classics team.'
             )
             # Email confirmation of contact message
             data = form.save()

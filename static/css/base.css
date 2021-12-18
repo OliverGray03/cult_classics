@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #555;
+    color: #757575;
     font-family: 'Lato';
 }
 
@@ -150,11 +150,6 @@ a.category-badge>span.badge:hover {
 
 .social {
     color: #7E7E7E;
-}
-
-.about-us {
-    min-height: 800px;
-    width: 75%;
 }
 
 .title-text {
@@ -410,4 +405,25 @@ input[name='q']::placeholder {
 
 .card-footer p {
     color: #7E7E7E;
+}
+
+
+/*About us*/
+.about-us-heading {
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #DEE0C8;
+}
+
+.about-us-sub-heading {
+    color: #000;
+    font-size: 18px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 15px;
 }
