@@ -431,3 +431,9 @@ input[name='q']::placeholder {
     color: #000;
     font-size: 15px;
 }
+
+/*Products*/
+
+.break-color {
+    color: #DEE0C8;
+}
