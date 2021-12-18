@@ -1,4 +1,4 @@
-# Ex Planta 
+# Cult Classics
 ![Website mock ups]()
 
 The live site can be viewed [here]()
@@ -35,4 +35,112 @@ The goal of this project is to build a full stack Ecommerce website based around
 ### Admin and Store Management 
  - As site admin i would like to be able to easily add, edit and remove products from the site so i can minimise process time. 
  - As site admin i would like to be able to view contact messages that have been sent in by site users and respond to them. 
- - As site admin i would like to be able to view "selling proposals" from customers, including images and rating in order to make an offer of purchase on a shirt. 
+ - As site admin i would like to be able to view "selling proposals" from customers, including images and rating in order to make an offer of purchase on a shirt.
+
+ # Structure
+ ## Features 
+
+ ### Base Template 
+ - Navigation Bar
+    - The nav bar is split into two levels. The first level contains the business name/brand, a clickable link that will return the user to the home page from any page, a product search bar useful for returning users wanting to search/purchase a specific product, a register/login link and a bag icon that updates once users add items to their bag. 
+    - The second Nav bar contains searchable links by category, useful for returning users.
+- Navigation Bar - Mobile 
+    - When used on mobile the nav bar condenses down to include the bag icon, account icon and a search icon with an interactive dropdown search box. 
+- Footer
+    - The footer contains clickable social media icons, useful for new users wanting to learn more about the business.
+    - The footer also contains useful company links to login/register to the site, a link to an about us page and a link to a contact page, all useful for new interactive users.
+    - The footer also contains useful quick category search links to the products page. 
+
+- Toast Messages
+    - Toast messages have been used throughout the site to give the user feedback on their actions, the messages are colour coded, Green for success, Yellow for warning, Blue for information and Red for an error.
+
+### Home Page
+- Home Page
+    - The home page incorporates all of the above base template features additionally it simply features a large banner image, a specific product image to give a clear indication to the user what the sites purpose is. 
+    - On top of this image a large "Shop now" button is displayed to draw the user into the product page. 
+
+### Products
+- Product Page 
+    - In the top left of this page there is a product counter to indicate how many products are being shown depending on the search criteria. 
+    - In the top right of this page there is a sorting selector so a customer can sort the products by price (high or low), rating (high or low), name (high or low) or category (high or low).
+    - The page is responsive, displaying 4 products on extra large screens, 3 on large screens, 2 on medium and 1 on small screens. 
+    - The products are displayed in a card format, a large image with small key informative information below like the price and rating. 
+
+- Product Detail page 
+    - The product detail page shows the product image as a large image on the left of the screen or on top on small screens.
+    - Product detail including the price is displayed to the right of this or just below on smaller screens.
+    - Below the detail there is a quantity section where a user can adjust the quantity of a product before purchase on which the price updates. 
+    - There is then a favorites section where logged in users will see their saved items enticing them to add these products to their bag before checking out. 
+    - There are then two buttons, a back button for users to continue shopping and an add to bag button which adds the product to the users shopping bag. 
+
+### Shopping Bag & Checkout 
+- Shopping Bag 
+    - The shopping bag has similar attributes to the product detail page, it shows a large product image to the left of the screen and the product detail to the right of this, including the name, sku number, price and quantity. 
+    - At this point the quantity is still an adjustable field for the use to make any final amendments, they also have the option to remove the product from the bag completely. 
+    - A sub total and grand total price are shown next to the product and at the bottom of the screen with the continue to purchase button. The grand total includes any shipping costs. 
+
+- Checkout Page
+    - The checkout page is split into two sections, on the left side of the page there is a form, this needs to be complete by the user to gather all the relevant information like name , delivery information and payment information. 
+    - On the right hand side of the page there is an order summary, this includes the product information and the total payable amount. 
+    - There is a back to bag button giving the user the opportunity to make any last minute changes. 
+
+### About us and Contact information 
+- About us 
+    - This page is split into two sections, a small paragraph about the business and why it is run. 
+    - Secondly on the right side of the page there is an address to the store and a timetable detailing opening times. 
+    - Finally, there is a link to the contact page for users to direct a question to site owners. 
+
+- Contact us 
+    -
+
+
+### Register, Login and Profile
+
+### Admin Features
+
+# Skeleton
+
+# Database
+
+# Design
+
+## Typography
+- The typography used throughout the site was called Lato taken from [Google Fonts](https://fonts.google.com/)
+
+# Technology Used
+Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+Libraries & Integrations
+- [Django](https://www.djangoproject.com/)
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html)
+- [Django Countries](https://pypi.org/project/django-countries/)
+- [Stripe](https://stripe.com/gb)
+- [Amazon Web Services](https://aws.amazon.com/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [JQuery](https://jquery.com/)
+
+Database
+
+
+Version control
+- [Git](https://git-scm.com/) 
+- [Git Hub](https://github.com/)
+
+Wireframes 
+- [Balsamiq](https://balsamiq.com)
+
+Other
+- [Heroku](https://id.heroku.com/login)
+- [Google Dev Tools](https://developers.google.com/web/tools/)
+- [Responsinator](https://www.responsinator.com/)
+- [Chrome lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
+- [Favicon](https://favicon.io/)
+
