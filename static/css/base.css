@@ -382,6 +382,8 @@ input[name='q']::placeholder {
     }
 }
 
+/*Footer*/
+
 .footer-headings {
     letter-spacing: 3px;
     border-bottom: 1px solid #DEE0C8;
@@ -393,6 +395,8 @@ input[name='q']::placeholder {
     font-size: 60px;
     background-color: rgba(0, 0, 0, 0.02);
 }
+
+/*Product Cards*/
 
 .card-title {
     letter-spacing: 3px;
