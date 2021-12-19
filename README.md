@@ -145,3 +145,17 @@ Other
 - [W3C Jigsaw](https://jigsaw.w3.org/css-validator/)
 - [Favicon](https://favicon.io/)
 
+# Testing
+
+### Known Bugs & Fixes
+- Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
+
+
+# Deployment
+
+# Credits
+
+## Media
+
+# Acknowledgements
+
