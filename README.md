@@ -100,6 +100,10 @@ The goal of this project is to build a full stack Ecommerce website based around
 ### Admin Features
 
 # Skeleton
+- Home
+    - [Desktop](media/readme/wireframes/homedesktop.png)
+    - [Mobile]()
+    - [tablet]()
 
 # Database
 
