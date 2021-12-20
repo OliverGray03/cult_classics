@@ -9,8 +9,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #757575;
+    color: #7E7E7E;
     font-family: 'Lato';
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
 /* from Bulma */
@@ -22,65 +32,27 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+/* Text */
+
+.title-text {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
-.main-logo-link {
-    width: fit-content;
+.content-text {
+    text-align: center;
+    word-spacing: 3px;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+.content-text p {
+    margin: 35px;
 }
 
-.btn-black {
-    background: black;
-    color: white;
-}
+/* Colours */
 
-.btn-white {
-    background: #fff;
-    color: #000;
-}
-
-.btn-outline-black {
-    background: white;
-    color: black !important;
-    /* use important to override link colors for <a> elements */
-    border: 1px solid black;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
-.subscribe-button {
-    background-color: #DEE0C8;
-    color: #000;
-    border: 1px solid #DEE0C8;
-    border-radius: 0;
-    -webkit-transition: .5s linear;
-    -o-transition: .5s linear;
-    transition: .5s linear;
-}
-
-.subscribe-button:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #fff;
-    border-radius: 0;
-    -webkit-transition: .5s linear;
-    -o-transition: .5s linear;
-    transition: .5s linear;
+#topnav {
+    border-bottom: 2px solid #DEE0C8
 }
 
 .text-black {
@@ -92,7 +64,7 @@ body {
 }
 
 .text-grey {
-    color: #7E7E7E;
+    color: #7E7E7E !important;
 }
 
 .border-black {
@@ -115,19 +87,74 @@ body {
     background-color: #DEE0C8 !important;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+.social {
+    color: #7E7E7E;
 }
 
-a.category-badge>span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
+/* Logos */
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+/* Buttons */
+
+.shop-now-button {
+    background: black;
+    color: white;
+    padding: 50px;
+    border: 1px solid #DEE0C8;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+    border: 1px solid #DEE0C8;
+}
+
+.btn-white {
+    background: #fff;
+    color: #000;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #DEE0C8;
+    color: #000;
+}
+
+.subscribe-button {
+    background-color: #DEE0C8;
+    color: #000;
+    border: 1px solid #DEE0C8;
+    border-radius: 0;
+    -webkit-transition: .5s linear;
+    -o-transition: .5s linear;
+    transition: .5s linear;
+}
+
+.subscribe-button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-transition: .5s linear;
+    -o-transition: .5s linear;
+    transition: .5s linear;
 }
 
 .btt-button {
@@ -144,27 +171,9 @@ a.category-badge>span.badge:hover {
     cursor: pointer;
 }
 
-#topnav {
-    border-bottom: 2px solid #DEE0C8
-}
-
-.social {
-    color: #7E7E7E;
-}
-
-.title-text {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-.content-text {
-    text-align: center;
-    word-spacing: 3px;
-}
-
-.content-text p {
-    margin: 35px;
+a.category-badge>span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 .hr-small {
@@ -437,5 +446,3 @@ input[name='q']::placeholder {
 .break-color {
     color: #DEE0C8;
 }
-
-/*Like Button*/
