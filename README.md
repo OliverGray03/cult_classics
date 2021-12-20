@@ -102,8 +102,52 @@ The goal of this project is to build a full stack Ecommerce website based around
 # Skeleton
 - Home
     - [Desktop](media/readme/wireframes/homedesktop.png)
+    - [Mobile](media/readme/wireframes/homemobile.png)
+    - [tablet](media/readme/wireframes/hometablet.png)
+- Products
+    - [Desktop](media/readme/wireframes/productsdesktop.png)
+    - [Mobile](media/readme/wireframes/productsmobile.png)
+    - [Tablet](media/readme/wireframes/productstablet.png)
+- Product Detail
+    - [Desktop](media/readme/wireframes/productdetaildesktop.png)
+    - [Mobile](media/readme/wireframes/productdetailmobile.png)
+    - [Tablet](media/readme/wireframes/productdetailtablet.png)
+- Checkout
+    - [Desktop](media/readme/wireframes/checkoutdesktop.png)
+    - [Mobile](media/readme/wireframes/checkoutmobile.png)
+    - [Tablet](media/readme/wireframes/checkouttablet.png)
+- Bag
+    - [Desktop](media/readme/wireframes/bagdesktop.png)
+    - [Mobile](media/readme/wireframes/bagmobile.png)
+    - [Tablet](media/readme/wireframes/bagtablet.png)
+- Login
+    - [Desktop](media/readme/wireframes/logindesktop.png)
+    - [Mobile](media/readme/wireframes/loginmobile.png)
+    - [Tablet](media/readme/wireframes/logintablet.png)
+- Logout
+    - [Desktop](media/readme/wireframes/signoutdesktop.png)
+    - [Mobile](media/readme/wireframes/signoutmobile.png)
+    - [Tablet](media/readme/wireframes/signouttablet.png)
+- Register
+    - [Desktop](media/readme/wireframes/registerdesktop.png)
+    - [Mobile](media/readme/wireframes/registermobile.png)
+    - [Tablet](media/readme/wireframes/registertablet.png)
+- Profile
+    - [Desktop](media/readme/wireframes/profiledesktop.png)
+    - [Mobile](media/readme/wireframes/profilemobile.png)
+    - [Tablet](media/readme/wireframes/profiletablet.png)
+- Favourites
+    - [Desktop]()
     - [Mobile]()
-    - [tablet]()
+    - [Tablet]()
+- Contact 
+    - [Desktop]()
+    - [Mobile]()
+    - [Tablet]()
+- About us 
+    - [Desktop](media/readme/wireframes/aboutdesktop.png)
+    - [Mobile](media/readme/wireframes/aboutmobile.png)
+    - [Tablet](media/readme/wireframes/abouttablet.png)
 
 # Database
 
