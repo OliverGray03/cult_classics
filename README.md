@@ -137,13 +137,13 @@ The goal of this project is to build a full stack Ecommerce website based around
     - [Mobile](media/readme/wireframes/profilemobile.png)
     - [Tablet](media/readme/wireframes/profiletablet.png)
 - Favourites
-    - [Desktop]()
-    - [Mobile]()
-    - [Tablet]()
+    - [Desktop](media/readme/wireframes/favouritesdesktop.png)
+    - [Mobile](media/readme/wireframes/favouritesmobile.png)
+    - [Tablet](media/readme/wireframes/favouritestablet.png)
 - Contact 
-    - [Desktop]()
-    - [Mobile]()
-    - [Tablet]()
+    - [Desktop](media/readme/wireframes/contactdesktop.png)
+    - [Mobile](media/readme/wireframes/contactmobile.png)
+    - [Tablet](media/readme/wireframes/contacttablet.png)
 - About us 
     - [Desktop](media/readme/wireframes/aboutdesktop.png)
     - [Mobile](media/readme/wireframes/aboutmobile.png)
