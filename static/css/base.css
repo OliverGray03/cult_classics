@@ -187,6 +187,44 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.favourite-icon {
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 20px;
+    margin: -4px;
+}
+
+.favourite-icon:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.favourite-icon:after {
+    color: #000;
+    text-decoration: none;
+}
+
+.favourite-heart:hover {
+    color: red;
+}
+
+.favourite-heart:after {
+    color: red;
+}
+
+.favourite-cross:hover {
+    color: red;
+}
+
+.favourite-cross:after {
+    color: red;
+}
+
+
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
