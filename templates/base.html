@@ -88,6 +88,8 @@
                             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
                             <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
+                            <a href="{% url 'about_us' %}" class="dropdown-item">About Us</a>
+                            <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
                         </div>
                     </li>
                     <li class="list-inline-item">
@@ -152,21 +154,7 @@
     <footer class="bg-black w-100">
         <div class="container-fluid">
             <div class="row no-gutters pt-4">
-                <div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12 pt-3 px-4 center-text-medium">
-                    <p class="text-uppercase text-white">Stay up to date with cult classics</p>
-                    <hr class="text-white">
-                    <p class="text-white">Want to be the first to know about any new added products. Enter
-                        your email below.</p>
-                    <form method="POST" action="" class="form mb-2">
-                        {% csrf_token %}
-                        <div class="mb-2">
-                            <button class="btn subscribe-button text-uppercase fs-6 mb-2">Subscribe</button>
-                        </div>
-                    </form>
-                    <p class="text-white">To unsubscribe, please click <a href=""
-                            class="unstyled-color text-white"><strong>here.</strong></a></p>
-                </div>
-                <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12 pt-3 center-text-medium">
+                <div class="col-lg-4 col-md-6 col-sm-12 pt-3 center-text-medium">
                     <p class="text-white text-uppercase footer-headings"><strong>Shop</p></strong>
                     <ul class="list-unstyled">
                         <li class="my-2">
@@ -186,7 +174,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
+                <div class="col-lg-4 col-md-6 col-sm-12 pt-3 center-text-medium">
                     <p class="text-white text-uppercase footer-headings"><strong>Company</p></strong>
                     <ul class="list-unstyled">
                         <li class="my-2">
@@ -212,7 +200,7 @@
                         {% endif %}
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 pt-3 center-text-medium">
+                <div class="col-lg-4 col-md-6 col-sm-12 pt-3 center-text-medium">
                     <p class="text-white text-uppercase footer-headings"><strong>Social</p></strong>
                     <ul class="list-unstyled">
                         <li class="my-2">
