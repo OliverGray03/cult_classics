@@ -102,7 +102,7 @@ The goal of this project is to build a full stack Ecommerce website based around
 ### Admin Features
 - Admin has access to th all additional features accross the site. 
     - Theadmin profile includes a product management page in the nav bar. From here the admin has access to full CRUD functionality being directed to a form to add, remove and edit any product for or on the site. 
-    
+
 # Skeleton
 - Home
     - [Desktop](media/readme/wireframes/homedesktop.png)
@@ -159,6 +159,19 @@ The goal of this project is to build a full stack Ecommerce website based around
 
 ## Typography
 - The typography used throughout the site was called Lato taken from [Google Fonts](https://fonts.google.com/)
+
+## Colour Scheme 
+ - I took inspiration for my colour scheme from big sporting brand websites like Nike and Addidas. Both these use start contrast of white and black with accent colours throughout. With Cult Classics being a sports related website i wanted to replicate the feel of these brands. 
+
+ - The below was my full colour scheme created using [Coolers](https://coolors.co/)
+
+![colour scheme](media/readme/colourscheme.png)
+
+    - #FFF Was primarily used for the background and some contrasting buttons
+    - #000 Was primarily used as contrasting features, for example the nav bar and footer
+    - #DEE0C8 was used throughout the site for detailing, including line breaks and the delivery banner
+    - #7E7E7E Was used for text throughout the site
+
 
 # Technology Used
 Languages
