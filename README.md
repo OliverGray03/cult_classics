@@ -82,9 +82,8 @@ The goal of this project is to build a full stack Ecommerce website based around
     - A sub total and grand total price are shown next to the product and at the bottom of the screen with the continue to purchase button. The grand total includes any shipping costs. 
 
 - Checkout Page
-
     - The checkout page is split into two sections, on the left side of the page there is a form, this needs to be complete by the user to gather all the relevant information like name , delivery information and payment information. 
-    - On the right hand side of the page there is an order summary, this includes the product information and the total payable amount. 
+    - On the right hand side of the page there is an order summary, this includes the product information and the total payable amount including the delivery costs. 
     - There is a back to bag button giving the user the opportunity to make any last minute changes. 
 
 ### About us and Contact information 
@@ -92,12 +91,19 @@ The goal of this project is to build a full stack Ecommerce website based around
     - This page is split into two sections, a small paragraph about the business and why it is run. 
     - Secondly on the right side of the page there is an address to the store and a timetable detailing opening times. 
     - Finally, there is a link to the contact page for users to direct a question to site owners. 
-
 - Contact us 
-    -
-
+    - TIhis page allows users to directly contact the business admin by completing an online form. 
+    - One the user completes the form a success message is given as feedback.
 
 ### Register, Login and Profile
+- Profile 
+    - The profile page is split into two sections, on the left hand side the user can update their default delivery information by complting an online form and using the update button. 
+    - The right had side of the page details the users order history. 
+- Favourites 
+    - Logged in users will be able to see their saved favourites using the favourites link in the nav bar from here they can add these products to their basket. 
+    - Users will also be able to add further products from the products page or remove products from their favourites using the relevant icons on the product cards. 
+- Allauth 
+    - The sign up, register, password reset, email confirmation pages etc, have all been provided by Django allauth.
 
 ### Admin Features
 - Admin has access to th all additional features accross the site. 
@@ -172,6 +178,9 @@ The goal of this project is to build a full stack Ecommerce website based around
     - #DEE0C8 was used throughout the site for detailing, including line breaks and the delivery banner
     - #7E7E7E Was used for text throughout the site
 
+## Icons
+- Icons were chosen and used throughout the site using Fontawesome, i have used icons that are recognisable to everyone from using day to day apps and websites 
+
 
 # Technology Used
 Languages
@@ -217,10 +226,17 @@ Other
 
 - Whilst finalising the favourites functionality i realsied i was using the same looped code for the all products, favourites list in product detail and the favourites list. To comply with DRY i refactored the code to use an include function with a singular HTML file for the product loop. 
 
+## Future improvements
+- A useful feature to add would be a newsletter users could sign up to, encouraging more site visitors to create an account whilst also being able to offer discounts and detail on new products to the user. 
+- Another useful feature to add for the future would be a welcome discount for all newly registered users, enticing the user to spend on the site and encouraging more users to register to the site. 
+
 
 # Deployment
 
 # Credits
+
+### Imagery
+- Product images for the site were obtained from [Greatest Kits](www.greatestkits.co.uk)
 
 ## Media
 

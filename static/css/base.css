@@ -23,6 +23,8 @@ body {
     z-index: -1;
 }
 
+.logo {}
+
 /* from Bulma */
 .icon {
     align-items: center;
