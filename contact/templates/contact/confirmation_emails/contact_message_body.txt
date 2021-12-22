@@ -1,0 +1,10 @@
+Hi {{ data.name }}
+
+Thanks for getting in touch, below was the message you sent us, 
+
+"{{} data.message }}"
+
+We will be in touch with you within 24 hours. For any additional queries please contact cultclassicshirts@gmail.com . 
+
+Thanks
+Cult Classics

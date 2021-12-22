@@ -110,57 +110,7 @@
             </div>
             <div class="col">
                 <h2>Favorites</h2>
-                <div class="row mt-3">
-                    {% for product in products %}
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card h-100 border-0">
-                            {% if product.image %}
-                            <a href="{% url 'product_detail' product.id %}">
-                                <img class="card-img-top img-fluid" src="{{ product.image.url }}"
-                                    alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="{% url 'product_detail' product.id %}">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                                    alt="{{ product.name }}">
-                            </a>
-                            {% endif %}
-                            <div class="card-body pb-0">
-                                <p class="mb-0 card-title">{{ product.name }}</p>
-                            </div>
-                            <div class="card-footer bg-white pt-0 border-0">
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <p class="lead mb-0 mt-2">£{{ product.price }}</p>
-                                        {% if product.category %}
-                                        <p class="small mt-1 mb-0">
-                                            <a class="text-muted"
-                                                href="{% url 'products' %}?category={{ product.category.name }}">
-                                                <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                                            </a>
-                                        </p>
-                                        {% endif %}
-                                        {% if product.rating %}
-                                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} /
-                                            10</small>
-                                        {% else %}
-                                        <small class="text-muted">No Rating</small>
-                                        {% endif %}
-                                        {% if request.user.is_superuser %}
-                                        <small class="ml-3">
-                                            <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                                            <a class="text-danger"
-                                                href="{% url 'delete_product' product.id %}">Delete</a>
-                                        </small>
-                                        {% endif %}
-                                    </div>
-                                    <a href="{% url 'remove_from_favorites' product.id %}">Remove from Favorites</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
+                {% include './product_list.html' with products=favorites %}
 
             </div>
             <div class=" col-12 break-color">

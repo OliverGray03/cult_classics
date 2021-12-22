@@ -198,6 +198,8 @@ Other
 ### Known Bugs & Fixes
 - Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
 
+- Whilst finalising the favourites functionality i realsied i was using the same looped code for the all products, favourites list in product detail and the favourites list. To comply with DRY i refactored the code to use an include function with a singular HTML file for the product loop. 
+
 
 # Deployment
 

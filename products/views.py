@@ -1,3 +1,4 @@
+import random
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -77,8 +78,24 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    if (request.user.is_authenticated):
+        profile = get_object_or_404(UserProfile, user=request.user)
+        favorites = Favorite.objects.filter(user_profile=profile)
+
+        products = []
+        for favorite in favorites:
+            product = favorite.product
+            product.isfavorite = True
+            products.append(product)
+
+        random.shuffle(products)
+
+        selectedFavourites = [item for index,
+                              item in enumerate(products) if index < 4]
+
     context = {
         'product': product,
+        'favorites': selectedFavourites,
     }
 
     return render(request, 'products/product_detail.html', context)
