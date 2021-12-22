@@ -24,18 +24,20 @@ The goal of this project is to build a full stack Ecommerce website based around
  - As a shopper i would like to narrow down the products on the site to a specific category so i can find a product quickly. 
  - As a shopper i would like to view the products in specific orders for example acending price order or decending rating order. 
  - As a shopper i would like to search for products using key words so i can quickly narrow down to a product i know i would like to purchase. 
+ - As a shooper i would like to be able to add products i like to a favourites list to view at a later time. 
 
 ### Purchasing and Checkout
  - As a shopper i would like to be able to add items to a basket should i wish to make more than one purchase. 
  - As a shopper i would like to see live updates to the total cost of my basket so i can make a decision as to if i can purchase more. 
  - As a shopper i would like to be able to update my basket by further adding and removing products i have changed my mind on. 
  - As a shopper i would like to checkout and pay for my items securely. 
- - As a shopper i would like to see an order confirmation so i can validate my purchase. 
+ - As a shopper i would like to see an order confirmation so 
+ 
+ i can validate my purchase. 
 
 ### Admin and Store Management 
  - As site admin i would like to be able to easily add, edit and remove products from the site so i can minimise process time. 
  - As site admin i would like to be able to view contact messages that have been sent in by site users and respond to them. 
- - As site admin i would like to be able to view "selling proposals" from customers, including images and rating in order to make an offer of purchase on a shirt.
 
  # Structure
  ## Features 
@@ -50,7 +52,6 @@ The goal of this project is to build a full stack Ecommerce website based around
     - The footer contains clickable social media icons, useful for new users wanting to learn more about the business.
     - The footer also contains useful company links to login/register to the site, a link to an about us page and a link to a contact page, all useful for new interactive users.
     - The footer also contains useful quick category search links to the products page. 
-
 - Toast Messages
     - Toast messages have been used throughout the site to give the user feedback on their actions, the messages are colour coded, Green for success, Yellow for warning, Blue for information and Red for an error.
 
@@ -72,6 +73,7 @@ The goal of this project is to build a full stack Ecommerce website based around
     - Below the detail there is a quantity section where a user can adjust the quantity of a product before purchase on which the price updates. 
     - There is then a favorites section where logged in users will see their saved items enticing them to add these products to their bag before checking out. 
     - There are then two buttons, a back button for users to continue shopping and an add to bag button which adds the product to the users shopping bag. 
+    - The product detail page displays four random products saved to the users favourites to entice the customer to add a further product to their bag. 
 
 ### Shopping Bag & Checkout 
 - Shopping Bag 
@@ -98,7 +100,9 @@ The goal of this project is to build a full stack Ecommerce website based around
 ### Register, Login and Profile
 
 ### Admin Features
-
+- Admin has access to th all additional features accross the site. 
+    - Theadmin profile includes a product management page in the nav bar. From here the admin has access to full CRUD functionality being directed to a form to add, remove and edit any product for or on the site. 
+    
 # Skeleton
 - Home
     - [Desktop](media/readme/wireframes/homedesktop.png)
