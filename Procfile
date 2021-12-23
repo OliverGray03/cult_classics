@@ -1,0 +1,1 @@
+web: gunicorn cult_classics.wsgi:application
