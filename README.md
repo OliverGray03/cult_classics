@@ -24,16 +24,14 @@ The goal of this project is to build a full stack Ecommerce website based around
  - As a shopper i would like to narrow down the products on the site to a specific category so i can find a product quickly. 
  - As a shopper i would like to view the products in specific orders for example acending price order or decending rating order. 
  - As a shopper i would like to search for products using key words so i can quickly narrow down to a product i know i would like to purchase. 
- - As a shooper i would like to be able to add products i like to a favourites list to view at a later time. 
+ - As a shopper i would like to be able to add products i like to a favourites list to view at a later time. 
 
 ### Purchasing and Checkout
  - As a shopper i would like to be able to add items to a basket should i wish to make more than one purchase. 
  - As a shopper i would like to see live updates to the total cost of my basket so i can make a decision as to if i can purchase more. 
  - As a shopper i would like to be able to update my basket by further adding and removing products i have changed my mind on. 
  - As a shopper i would like to checkout and pay for my items securely. 
- - As a shopper i would like to see an order confirmation so 
- 
- i can validate my purchase. 
+ - As a shopper i would like to see an order confirmation so i can validate my purchase. 
 
 ### Admin and Store Management 
  - As site admin i would like to be able to easily add, edit and remove products from the site so i can minimise process time. 
