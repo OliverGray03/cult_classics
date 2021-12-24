@@ -77,6 +77,7 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    selectedFavourites = []
 
     if (request.user.is_authenticated):
         profile = get_object_or_404(UserProfile, user=request.user)
@@ -84,9 +85,9 @@ def product_detail(request, product_id):
 
         products = []
         for favorite in favorites:
-            product = favorite.product
-            product.isfavorite = True
-            products.append(product)
+            favoriteProduct = favorite.product
+            favoriteProduct.isfavorite = True
+            products.append(favoriteProduct)
 
         random.shuffle(products)
 

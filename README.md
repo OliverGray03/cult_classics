@@ -218,25 +218,17 @@ Other
 - [Favicon](https://favicon.io/)
 
 # Testing
-
-### Known Bugs & Fixes
-- Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
-
-- Whilst finalising the favourites functionality i realsied i was using the same looped code for the all products, favourites list in product detail and the favourites list. To comply with DRY i refactored the code to use an include function with a singular HTML file for the product loop. 
-
-## Future improvements
-- A useful feature to add would be a newsletter users could sign up to, encouraging more site visitors to create an account whilst also being able to offer discounts and detail on new products to the user. 
-- Another useful feature to add for the future would be a welcome discount for all newly registered users, enticing the user to spend on the site and encouraging more users to register to the site. 
+Link to testing Md
 
 
 # Deployment
 
 # Credits
+- Code Institutes Boutique Ado project was used as inspiration and the underlining building blocks of the projects. 
+- 
 
-### Imagery
-- Product images for the site were obtained from [Greatest Kits](www.greatestkits.co.uk)
 
 ## Media
-
+- Product images for the site were obtained from [Greatest Kits](www.greatestkits.co.uk)
 # Acknowledgements
 
