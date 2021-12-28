@@ -15,6 +15,7 @@ class ContactForm(forms.ModelForm):
         placeholders = {
             'name': 'Full Name',
             'email': 'Email',
+            
             'subject': 'Subject',
             'message': 'Message'
         }

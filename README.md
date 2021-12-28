@@ -1,7 +1,32 @@
 # Cult Classics
 ![Website mock ups]()
+Cult Classics is an online shop, which sells authentic vintage football shirts. This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.
+**IMPORTANT (disclaimer): This project is meant for educational purposes only. Stripe's credit card payment functionality is real but remains in a "test mode" so that no payments will be taken. Please do not enter any personal credit/debit card numbers whilst using the site. This project contains real products from existing brands. If you want to make a test purchase on my site you can use the deteails below.
+Test transaction details:
+
+credit card: 4242 4242 4242 4242
+expiration date: 04 / 24
+CVC: 424
+ZIP: 42424
 
 The live site can be viewed [here]()
+
+# Table of contents
+1. [User Experience (UX)](#UX)
+    1. [Strategy & Scope](##Strategy)
+    2. [Features](#Structure)
+    3. [Skeleton](#Skeleton)
+    4. [Design/Surface](#Design)
+2. [Information Architecture](#Database)
+3. [Technologies](#Technologies Used)
+4. [Testing](#Testing)
+5. [Deployment](#Deployment)
+    1. [Local]()
+    2. [Heroku]()
+    3. [AWS]()
+    4. [Stripe]()
+6. [Credits](#Credits)
+7. [Acknowledgements](#Acknowledgements)
 
 # UX
 ## Strategy
@@ -37,11 +62,11 @@ The goal of this project is to build a full stack Ecommerce website based around
  - As site admin i would like to be able to easily add, edit and remove products from the site so i can minimise process time. 
  - As site admin i would like to be able to view contact messages that have been sent in by site users and respond to them. 
 
- # Structure
- ## Features 
+# Structure
+## Features 
 
- ### Base Template 
- - Navigation Bar
+### Base Template 
+- Navigation Bar
     - The nav bar is split into two levels. The first level contains the business name/brand, a clickable link that will return the user to the home page from any page, a product search bar useful for returning users wanting to search/purchase a specific product, a register/login link and a bag icon that updates once users add items to their bag. 
     - The second Nav bar contains searchable links by category, useful for returning users.
 - Navigation Bar - Mobile 
@@ -157,10 +182,7 @@ The goal of this project is to build a full stack Ecommerce website based around
     - [Mobile](media/readme/wireframes/aboutmobile.png)
     - [Tablet](media/readme/wireframes/abouttablet.png)
 
-# Database
-
 # Design
-
 ## Typography
 - The typography used throughout the site was called Lato taken from [Google Fonts](https://fonts.google.com/)
 
@@ -178,7 +200,7 @@ The goal of this project is to build a full stack Ecommerce website based around
 
 ## Icons
 - Icons were chosen and used throughout the site using Fontawesome, i have used icons that are recognisable to everyone from using day to day apps and websites 
-
+# Database
 
 # Technology Used
 Languages
