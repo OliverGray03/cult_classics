@@ -225,7 +225,7 @@ Link to testing Md
 
 # Credits
 - Code Institutes Boutique Ado project was used as inspiration and the underlining building blocks of the projects. 
-- 
+- Bootstrap documentation for helping to fix the padding on the header on the home page for mobile screens.
 
 
 ## Media
