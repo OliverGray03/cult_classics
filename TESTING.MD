@@ -70,12 +70,39 @@
     12. As a shopper i would like to be able to add items to a basket should i wish to make more than one purchase.
         - Users can add items to their bag from the product detail page, allowing them to make more than one purchase. 
 
-    [Bag for user story 12]()
-
     13. As a shopper i would like to see live updates to the total cost of my basket so i can make a decision as to if i can purchase more.
-        - 
+        - Users can add items to their bag and recieve live updates and feeback from the toasts used throughout the site. 
+    
+    [Bag multiple for user story 13](media/readme/userstoriesbagupdate.png)
+
+    14. As a shopper i would like to be able to update my basket by further adding and removing products i have changed my mind on.
+        - The user has the option to remove products from their bag using the remove button and the option to increasr the quantity of a product using the update button. 
+    
+    [Bag remove for user story 14](media/readme/userstoriesbagremove.png)
+
+    15. As a shopper i would like to checkout and pay for my items securely.
+        - Users can checkout by clicking the secure checkout button on the shopping bag page.
+        - On the checkout page users can fill in the form. Required fields are indicated with a star in the placeholder.
+        - Once the form is valid and the user has clicked the complete order button the checkout process is complete.
+    
+    [Checkout for user story 15](media/readme/userstoriescheckout.png)
+
+    16. As a shopper i would like to see an order confirmation so i can validate my purchase.
+        - Once a user has completed the checkout process, they will be shown a confirmation page with details of their order.
+        - Users will also be shown a message letting them know that a confirmation email has been sent to their email address.
+        - Registered users can find past confirmation orders in their profile.
+
+    [Checkout for user story 16]()
 
 ### Admin and site management 
+
+    17. As site admin i would like to be able to easily add, edit and remove products from the site so i can minimise process time.
+        - Admin users will have access to a site management page. Access to this can be found in the nav bar under product management.
+        - From here admin users can add products to the site, by clicking the add product icon and filling in the form. Once the add product button is submitted the user will be redirected to the product detail page for the product they have just added.
+        - From the product detail page admin users can edit and delete products by clicking on the icons for these options.
+        - Admin users can also edit and delete products from the products page directly.
+
+     [Checkout for user story 17]()
 
 
 # Code Validation
@@ -87,6 +114,14 @@
 ### JS
 
 # Browser Compatibility & Functionality Testing
+
+- Browser compatibility
+    - The site was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
+    - The site was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
+    - The above testing showed no errors and the website is cross-browser and cross-device compatible
+
+- Functionality Testing
+
 
 ## Known Bugs & Fixes
 - Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
