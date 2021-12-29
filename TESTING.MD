@@ -1,4 +1,5 @@
 # Testing User Stories
+## Testing User Stories
 
 ### Viewing and Navigation
     1. As a first time user i would like to know what the website is offering so i can make a decision on whether i would like to continue using the site.
@@ -104,6 +105,8 @@
 
      [Checkout for user story 17]()
 
+## Functionality Testing 
+![Functionality Testing](media/readme/cultclassicstests.png)
 
 # Code Validation
 
@@ -119,8 +122,6 @@
     - The site was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
     - The site was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
     - The above testing showed no errors and the website is cross-browser and cross-device compatible
-
-- Functionality Testing
 
 
 ## Known Bugs & Fixes

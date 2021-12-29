@@ -1,5 +1,5 @@
 # Cult Classics
-![Website mock ups]()
+![Website mock ups](media/readme/cultclassicsmockups.png)
 Cult Classics is an online shop, which sells authentic vintage football shirts. This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.
 **IMPORTANT (disclaimer): This project is meant for educational purposes only. Stripe's credit card payment functionality is real but remains in a "test mode" so that no payments will be taken. Please do not enter any personal credit/debit card numbers whilst using the site. This project contains real products from existing brands. If you want to make a test purchase on my site you can use the deteails below.
 Test transaction details:
