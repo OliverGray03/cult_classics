@@ -15,11 +15,11 @@
         var plusDisabled = currentValue > 98;
 
         if (size) {
-            $(`.decrement-size_${itemId}_${size}`).prop('disabled', minusDisabled);
-            $(`.increment-size_${itemId}_${size}`).prop('disabled', plusDisabled);
+            $(`#decrement-size_${itemId}_${size}`).prop('disabled', minusDisabled);
+            $(`#increment-size_${itemId}_${size}`).prop('disabled', plusDisabled);
         } else {
-            $(`.decrement-qty_${itemId}`).prop('disabled', minusDisabled);
-            $(`.increment-qty_${itemId}`).prop('disabled', plusDisabled);
+            $(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled);
+            $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
         }
     }
 
