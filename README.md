@@ -13,12 +13,12 @@ The live site can be viewed [here]()
 
 # Table of contents
 1. [User Experience (UX)](#UX)
-    1. [Strategy & Scope](##Strategy)
+    1. [Strategy & Scope](#Strategy)
     2. [Features](#Structure)
     3. [Skeleton](#Skeleton)
     4. [Design/Surface](#Design)
 2. [Information Architecture](#Database)
-3. [Technologies](#Technologies Used)
+3. [Technologies](#TechnologiesUsed)
 4. [Testing](#Testing)
 5. [Deployment](#Deployment)
     1. [Local]()
@@ -200,6 +200,7 @@ The goal of this project is to build a full stack Ecommerce website based around
 
 ## Icons
 - Icons were chosen and used throughout the site using Fontawesome, i have used icons that are recognisable to everyone from using day to day apps and websites 
+
 # Database
 
 # Technology Used
@@ -244,6 +245,47 @@ Link to testing Md
 
 
 # Deployment
+## Local Deployment
+The below requirements will need to be set up before deployomg the project
+- First ensure the following are set up on your chosen IDE:
+    - PIP3 Python package installer
+    - Python 3.6
+    - Git version control
+- Secondly you will need an account with Stripe to allow online payments.
+
+To set the project up locally you can follow the following steps:
+    1. Navigate to the repository - cult_classics
+    2. Click the code dropdown button, ensure the HTTPS tab is selected in the dropdown and copy the url.
+    3. In your IDE navigate to the desired directory.
+    4. Open the terminal and enter the following code: git clone https://github.com/Tawnygoody/Tarmachan.git
+        - Note: Alternatively you can select the "Download Zip" option from the dropdown menu, and extract the zip file to your chosen directory within your IDE.
+    5. To install the required dependencies needed to run the application type the following into the terminal: pip3 install -r requirements.txt
+    6. Environment variables will then need to be set up. This can be done in a couple of ways:
+        - Create an env.py file in the root directory, and ensure that it is added to the .gitignore file so that secret keys aren't published to github. Add to the following code to the the env.py file:
+            -   import os
+  os.enviorn["DEVELOPMENT"] = True
+  os.environ["SECRET_KEY"] = "Your Secret Key"
+  os.environ["STRIPE_PUBLIC_KEY"] = "Your Stripe Public Key"
+  os.environ["STRIPE_SECRET_KEY"] = "Your Stripe Secret Key"
+  os.environ["STRIPE_WH_SECRET"] = "Your Stripe WH Secret Key"
+        - Set the environment variables with your IDE settings (if available):
+            - Key | Value 
+              DEVELOPMENT| True
+              SECRET_KEY | your secret key
+              STRIPE_PUBLIC_KEY | your stripe public key
+              STRIPE_SECRET_KEY | your stripe secret key
+              STRIPE_WH_SECRET | your stripe WH secret key
+            - Your stripe variables can be located on your stripe dashboard.
+            - You can generate a secret key at [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/)
+    7. To set up the database you will need to migrate the database models. To do so type the following into the terminal:
+          - python3 manage.py makemigrations
+            python3 manage.py migrate
+    8. To load the product fixtures into the database type the following into the terminal:
+        
+
+## Deployment to Heroku
+
+
 
 # Credits
 - Code Institutes Boutique Ado project was used as inspiration and the underlining building blocks of the projects. 
