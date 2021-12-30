@@ -5,9 +5,9 @@ Cult Classics is an online shop, which sells authentic vintage football shirts. 
 Test transaction details:
 
 credit card: 4242 4242 4242 4242
-expiration date: 04 / 24
-CVC: 424
-ZIP: 42424
+expiration date: Any number
+CVC: Any number
+ZIP: Any number
 
 The live site can be viewed [here](https://ogray-cultclassics.herokuapp.com/)
 
@@ -21,10 +21,10 @@ The live site can be viewed [here](https://ogray-cultclassics.herokuapp.com/)
 3. [Technologies](#TechnologiesUsed)
 4. [Testing](#Testing)
 5. [Deployment](#Deployment)
-    1. [Local]()
-    2. [Heroku]()
-    3. [AWS]()
-    4. [Stripe]()
+    1. [Local](#local-deployment)
+    2. [Heroku](#deployment-to-heroku)
+    3. [AWS](#static-files-and-aws)
+    4. [Stripe](#stripe-and-heroku)
 6. [Credits](#Credits)
 7. [Acknowledgements](#Acknowledgements)
 
@@ -130,7 +130,7 @@ The goal of this project is to build a full stack Ecommerce website based around
 
 ### Admin Features
 - Admin has access to th all additional features accross the site. 
-    - Theadmin profile includes a product management page in the nav bar. From here the admin has access to full CRUD functionality being directed to a form to add, remove and edit any product for or on the site. 
+    - The admin profile includes a product management page in the nav bar. From here the admin has access to full CRUD functionality being directed to a form to add, remove and edit any product for or on the site. This user is able to create and edit models in the backend through this form. 
 
 # Skeleton
 - Home
@@ -420,7 +420,7 @@ Note: Alternatively you can select the "Download Zip" option from the dropdown m
             DEBUG = 'DEVELOPMENT' in os.environ
             ```
 
-## Storing static files with AWS
+## static files and AWS
 ### Creating a New Bucket
 
 1. Navigate to [Amazon AWS](https://aws.amazon.com/) and log in or sign up. 
@@ -604,7 +604,7 @@ Note: Alternatively you can select the "Download Zip" option from the dropdown m
     - Inside the media folder click upload -> add files and select all the product, blog and site images:
         - Select 'Grant public read access to these objects' before clicking through to 'upload'. 
 
-## Connecting Stripe to Heroku
+## Stripe and Heroku
 
 1. Log in to [Stripe](https://stripe.com/gb) 
 2. From the dashboard go to "developer" and select API Keys. Copy the publishable and secret keys and add them as config variables in Heroku:
