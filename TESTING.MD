@@ -88,19 +88,24 @@
     - Admin users can also edit and delete products from the products page directly.
  [Admin for user story 17](media/readme/userstoriesproductmanagement.png)
 
-## Functionality Testing 
-![Functionality Testing](media/readme/cultclassicstests.png)
 
-# Code Validation
-
+# Code Validation and Performance Testing
+## Code Validation
 - [responsinator](https://www.responsinator.com/) was used to check the responsiveness of the site across all devices and no errors were spotted
 - [W3C Markup validator](https://validator.w3.org/) was used to validate my code. Line 166, 186 and 212 in base HTML a strong tag had been closed after the closing p tage so these were swapped. A missing closing div tag was spotted from the end of Base HTML. 
 - [W3C CSS Validator](https://jigsaw.w3.org/) was used to validate the CSS and no errors were found. 
 - [JsHint](https://jshint.com/) was used to validate my Javascript, 6 missing semi-colons were found and added to the code. 
 - [PEP8](http://pep8online.com/) and the command python3 -m flake8 was used in combination to show any PEP8 compliance errors, some white space was found and removed and some lines of code that were too long were shortened. 
 
+## Performance Testing 
+
+
 # Browser Compatibility & Functionality Testing
 
+## Functionality Testing 
+![Functionality Testing](media/readme/cultclassicstests.png)
+
+## Compatibility 
 - Browser compatibility
     - The site was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
     - The site was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
@@ -112,6 +117,8 @@
 - Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
 
 - Whilst finalising the favourites functionality i realsied i was using the same looped code for the all products, favourites list in product detail and the favourites list. To comply with DRY i refactored the code to use an include function with a singular HTML file for the product loop. 
+
+- Whilst i refactored the code mentioned above, i realised this threw the column widths off when i wanted to use the same code for favourites in the product detail and the product page, to over come this is i included a column width tag in the includes tag. 
 
 ## Future improvements
 - A useful feature to add would be a newsletter users could sign up to, encouraging more site visitors to create an account whilst also being able to offer discounts and detail on new products to the user. 

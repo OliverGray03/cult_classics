@@ -223,7 +223,8 @@ Libraries & Integrations
 - [JQuery](https://jquery.com/)
 
 Database
-
+- [SQLite](https://sqlite.org/index.html)
+- [Database relationships from users, favourites and products](media/readme/databaserelationship.png)
 
 Version control
 - [Git](https://git-scm.com/) 
@@ -630,6 +631,7 @@ Note: Alternatively you can select the "Download Zip" option from the dropdown m
 - The fix for the quantity indicators going below 0 on small screens was taken from "The shopping bag refactor" lesson by [Code Institute](https://codeinstitute.net/).
 - [Stack Overflow](https://stackoverflow.com/questions/12395247/refactoring-code) aided in refactoring my code used in both the products html and favourites html called product_list.html.
 - The [Nike](https://www.nike.com/) website was used for design and colour scheme inspiration as well as the idea behind adding user favourites to the product detail and bag. 
+- The fix for the countryfield on the dropdown menu when placing an order was taken from code Institutes Boutique Ado project and credited via Github to Github in the code. 
 
 
 

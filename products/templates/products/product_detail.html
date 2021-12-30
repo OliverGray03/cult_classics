@@ -113,7 +113,7 @@
             <div class="col">
                 <h2>Favorites</h2>
                 {% if request.user.is_authenticated %}
-                {% include './product_list.html' with products=favorites %}
+                {% include './product_list.html' with products=favorites columnWidth='col-lg-6 col-xl-6' %}
                 {% else %}
                 <h3 class="mt-3">
                     <a href="{% url 'account_login' %}">Login</a> to view your saved items
