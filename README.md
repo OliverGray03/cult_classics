@@ -199,7 +199,7 @@ The goal of this project is to build a full stack Ecommerce website based around
     - #7E7E7E Was used for text throughout the site
 
 ## Icons
-- Icons were chosen and used throughout the site using [Font Awesome](https://fontawesome.com/), i have used icons that are recognisable to everyone from using day to day apps and websites 
+- Icons were chosen and used throughout the site using Fontawesome, i have used icons that are recognisable to everyone from using day to day apps and websites 
 
 # Database
 
@@ -222,6 +222,9 @@ Libraries & Integrations
 - [Google Fonts](https://fonts.google.com/)
 - [JQuery](https://jquery.com/)
 
+Database
+
+
 Version control
 - [Git](https://git-scm.com/) 
 - [Git Hub](https://github.com/)
@@ -238,8 +241,7 @@ Other
 - [Favicon](https://favicon.io/)
 
 # Testing
-
-[Testing.MD](https://github.com/OliverGray03/cult_classics/blob/main/TESTING.MD)
+Link to testing Md
 
 
 # Deployment

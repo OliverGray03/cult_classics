@@ -223,10 +223,6 @@ input[name='q']::placeholder {
     color: red;
 }
 
-.navbar-toggler {
-    background-color: #DEE0C8;
-}
-
 
 
 /* ------------------------------- bootstrap toasts */

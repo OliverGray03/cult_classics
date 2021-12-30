@@ -1,7 +1,6 @@
 from django import forms
 from .models import Contact
 
-
 class ContactForm(forms.ModelForm):
     """
     Create a form for any user to contact the company
@@ -16,7 +15,7 @@ class ContactForm(forms.ModelForm):
         placeholders = {
             'name': 'Full Name',
             'email': 'Email',
-
+            
             'subject': 'Subject',
             'message': 'Message'
         }

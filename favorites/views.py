@@ -8,8 +8,11 @@ from django.db.models.functions import Lower
 from products.models import Product
 from profiles.models import UserProfile
 from favorites.models import Favorite
+
 from products.models import Product, Category
 from products.forms import ProductForm
+
+# Create your views here.
 
 
 def favorites(request):
