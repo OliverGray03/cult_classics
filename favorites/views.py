@@ -5,7 +5,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.db.models import Q
 from django.db.models.functions import Lower
-from products.models import Product
 from profiles.models import UserProfile
 from favorites.models import Favorite
 

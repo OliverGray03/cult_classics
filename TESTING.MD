@@ -110,11 +110,11 @@
 
 # Code Validation
 
-### HTML 
-
-### CSS
-
-### JS
+- [responsinator](https://www.responsinator.com/) was used to check the responsiveness of the site across all devices and no errors were spotted
+- [W3C Markup validator](https://validator.w3.org/) was used to validate my code. Line 166, 186 and 212 in base HTML a strong tag had been closed after the closing p tage so these were swapped. A missing closing div tag was spotted from the end of Base HTML. 
+- [W3C CSS Validator](https://jigsaw.w3.org/) was used to validate the CSS and no errors were found. 
+- [JsHint](https://jshint.com/) was used to validate my Javascript, 6 missing semi-colons were found and added to the code. 
+- [PEP8](http://pep8online.com/) and the command python3 -m flake8 was used in combination to show any PEP8 compliance errors, some white space was found and removed and some lines of code that were too long were shortened. 
 
 # Browser Compatibility & Functionality Testing
 
