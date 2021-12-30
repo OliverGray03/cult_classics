@@ -93,7 +93,7 @@
         - Users will also be shown a message letting them know that a confirmation email has been sent to their email address.
         - Registered users can find past confirmation orders in their profile.
 
-    [Checkout for user story 16]()
+    [Confirmation for user story 16](media/readme/userstoriesconfirmation.png)
 
 ### Admin and site management 
 
@@ -103,7 +103,7 @@
         - From the product detail page admin users can edit and delete products by clicking on the icons for these options.
         - Admin users can also edit and delete products from the products page directly.
 
-     [Checkout for user story 17]()
+     [Admin for user story 17](media/readme/userstoriesproductmanagement.png)
 
 ## Functionality Testing 
 ![Functionality Testing](media/readme/cultclassicstests.png)
@@ -124,7 +124,8 @@
     - The above testing showed no errors and the website is cross-browser and cross-device compatible
 
 
-## Known Bugs & Fixes
+## Known Bugs & Interesting
+ Fixes
 - Whilst creating the favorites function i noticed the product was saving to the users favorites and displayed the "remove from favorites" rather than "add to favorites", however on going to the users favorites back then back to all products the page refreshed all products to say "Add to favorites" even though the product was still in the users favorites list. To overcome this i moved the favorites code in the "all_products" view from the top of the function to the bottom as the page was refreshing and resetting all the products after the favorites in the code. 
 
 - Whilst finalising the favourites functionality i realsied i was using the same looped code for the all products, favourites list in product detail and the favourites list. To comply with DRY i refactored the code to use an include function with a singular HTML file for the product loop. 
