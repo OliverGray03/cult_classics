@@ -12,7 +12,4 @@ class Favorite(models.Model):
         UserProfile, null=False, blank=False, on_delete=models.CASCADE)
 
     def __str__(self):
-        return "user: " (
-            + self.user_profile.user.username + ",
-            product: " + self.product.name
-        )
+        return "user: " + self.user_profile.user.username + ", product: " + self.product.name
