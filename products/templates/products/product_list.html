@@ -15,10 +15,11 @@
                 {% if request.user.is_authenticated %}
                 {% if product.isfavorite %}
 
-                <a href="{% url 'remove_from_favorites' product.id %}" class="favourite-icon"><i
-                        class="far fa-times-circle favourite-cross" title="Remove from Favourites"></i></a>
+                <a href="{% url 'remove_from_favorites' product.id %}" class="favourite-icon"
+                    aria-label="favourite-icon"><i class="far fa-times-circle favourite-cross"
+                        title="Remove from Favourites"></i></a>
                 {% else %}
-                <a href="{% url 'add_to_favorites' product.id %}" class="favourite-icon"><i
+                <a href="{% url 'add_to_favorites' product.id %}" class="favourite-icon" aria-label="favourite-icon"><i
                         class="far fa-heart favourite-heart"></i></a>
                 {% endif %}
                 {% endif %}

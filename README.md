@@ -202,6 +202,15 @@ The goal of this project is to build a full stack Ecommerce website based around
 - Icons were chosen and used throughout the site using Fontawesome, i have used icons that are recognisable to everyone from using day to day apps and websites 
 
 # Database
+- SQLite relational database management system (pre-installed with Django) has been used in development to store the data for this project. 
+- PostgreSQL relational database management system has been used in production. 
+- Note: The user model is provided by [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html).
+
+## Data Model
+
+The following Entity-Relationship diagram shows the relationships between the user, products and favourites model. 
+
+![favourites, user and products Diagram](media/readme/databaserelationship.png)
 
 # Technology Used
 Languages
@@ -224,7 +233,6 @@ Libraries & Integrations
 
 Database
 - [SQLite](https://sqlite.org/index.html)
-- [Database relationships from users, favourites and products](media/readme/databaserelationship.png)
 
 Version control
 - [Git](https://git-scm.com/) 

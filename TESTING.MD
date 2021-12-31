@@ -124,6 +124,8 @@ Full lighthouse test listed below;
 - ![Lighthouse contact](media/readme/lighthousecontactms4.png)
 - ![Lighthouse productmanagement](media/readme/lighthouseproductmanagementms4.png)
 
+- To improve on the accessibility score i ensured the favourite icon had an appropriate Aria-label for screen readers. 
+
 # Browser Compatibility & Functionality Testing
 ## Functionality Testing 
 ![Functionality Testing](media/readme/cultclassicstests.png)
@@ -146,4 +148,5 @@ Full lighthouse test listed below;
 ## Future improvements
 - A useful feature to add would be a newsletter users could sign up to, encouraging more site visitors to create an account whilst also being able to offer discounts and detail on new products to the user. 
 - Another useful feature to add for the future would be a welcome discount for all newly registered users, enticing the user to spend on the site and encouraging more users to register to the site. 
+- To further improve the site in the future, i would focus on improving the accessibility of the site therefore improving the lighthouse performance scores. To do this i would ensure all Aria element ID's are unique and all buttons have accessible names. 
 
